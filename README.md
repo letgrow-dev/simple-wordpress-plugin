@@ -1,18 +1,16 @@
-# WordPress simplest plugin  
+# WordPress mail history by LetGrow
 
-This is a simple plugin that allow to replace a logotype base on current url
+This is a wordpress plugins 
 
-Main purpose of this plugin is to show how to start develop plugins. But you can use it to set different logos for different pages. Or different logo for different language
+This plugin will collect all emails sent from your wordpress. And will display them on the list.
 
-## Setup
+# Features
 
-You need to map url's to media ID in `$domain_to_attachment_map` array
+- [] - csv import/export
 
-## FAQ
+# Uninstall
 
-### I don't see the plugin in my admin dashboard
-
-For simplicity we don't do any UI here. This plugin won't be visible in any place in admin dashboard but will work under the hood
+Beware as this plugin will fully cleanup itself before uninstall and you will lose all stored emails. Please make backup using export function before uninstall.
 
 # Any questions?
 

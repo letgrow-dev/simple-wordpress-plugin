@@ -1,0 +1,21 @@
+{
+    "name": "marcin/letgrow-mail-history",
+    "description": "A plugin for storing and displaying email history in WordPress",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Letgrow\\MailHistory\\": "app/",
+            "Letgrow\\WordPress": "../letgrow-wordpress/core"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcin Zawada",
+            "email": "marcin.zawada@letgrow.pl"
+        }
+    ],
+    "require": {},
+    "config": {
+        "vendor-dir": "lib"
+    }
+}

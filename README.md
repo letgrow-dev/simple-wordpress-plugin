@@ -15,3 +15,22 @@ Beware as this plugin will fully cleanup itself before uninstall and you will lo
 # Any questions?
 
 Leave a PR or create an issue
+
+## WP CLI
+
+Run wp-cli commands as follows:
+```
+docker compose run --rm wp-cli <command>
+```
+
+## Localization
+
+Generate pot files
+```
+docker compose run --rm wp-cli i18n make-pot wp-content/plugins/<plugin-name>
+```
+
+PO to MO files
+```
+msgfmt -o languages/letgrow-chatbot-pl_PL.mo languages/letgrow-chatbot-pl_PL.pot
+```
